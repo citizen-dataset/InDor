@@ -6,7 +6,6 @@ This repository contains resources for experiments with InDor, a multilingual da
 The resources support research on natural language understanding, bias detection, and disinformation detection.
 
 ## Materials
-- `examples_collected_news.png` is a table summarizing one extract per language, showing the type of news signaled as problematic by participants in the data collection campaign.
 - `annotation_guidelines.pdf`
 - `surveys_and_focus_group.pdf` reports the contents of the Pre-annotation and Post-annotation surveys and focus group discussion questions aimed at fostering discussions about the perception of problematic language and framing in news articles.
 - `prompts.py`
