@@ -1,0 +1,21 @@
+task: "task2" # task1, task2
+spans_task_prompt_zero_shot: "spans_detection_zero_shot"
+spans_task_prompt_few_shots: "spans_detection_few_shots"
+rationales_task_prompt_zero_shot: "rationales_generation_zero_shot"
+rationales_task_prompt_few_shots: "rationales_generation_few_shots"
+retry_prompt: "retry_prompt"
+task_1_prompt_zero_shot: "task_1_prompt_zero_shot"
+task_1_prompt_few_shots: "task_1_prompt_few_shots"
+task_1_retry_prompt: "task_1_retry_prompt"
+
+data_path: "data/indor_{language}.jsonl"
+results_path: "results/valid_results/{task}/{model}/experiment_results_{language}.json"
+evaluation_results_path: "results/valid_results/{task}/{model}/evaluation_results_{language}.json"
+
+# model_name: "meta-llama/llama-4-maverick"
+# model_name: "qwen/qwen3-235b-a22b"
+model_name: "mistralai/mixtral-8x22b-instruct"
+
+threads: 10
+
+data_language: "fa"
